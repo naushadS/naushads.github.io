@@ -1,1 +1,39 @@
-theme: jekyll-theme-hacker
+title: Hello, world! Welcome to Naushad Shukoor's Blog
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://naushads.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Naushad Shukoor # add your name
+author-img: naushad_shukoor_square_hd.jpg # add your photo
+about-author: DL/NLP/ML enthusiast. I like exploring new technology & algorithms in the field of Data Science for solving real world business problem.
+ # add description
+social-twitter: naushadshukoor # add your Twitter handle
+social-github: naushadS # add your Github handle
+social-linkedin: naushad-shukoor # add your Linkedin handle
+social-email: naushadshukoor@gmail.com # add your Email address
+social-kaggle: naushads
+
+
+# Disqus
+discus-identifier: naushadshukoor # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
