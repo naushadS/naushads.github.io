@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "name": "http://file:///Users/naushads/Downloads/simons/index.html",
+            "request": "launch",
+            "url": "http://file:///Users/naushads/Downloads/simons/index.html"
+        },
+        {
+            "type": "pwa-chrome",
+            "name": "localhost:5000/simons",
+            "request": "launch",
+            "url": "${workspaceFolder}/index.html"
+        }
+    ]
+}
